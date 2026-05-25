@@ -8,20 +8,36 @@ import {
 function App() {
   const projects = [
     {
+      title: "Health Buddy",
+      description:
+        "AI-powered content generation platform with blog generation, social media tools, prompt optimization, and image generation.",
+      tech: ["Python", "Groq API"],
+      github: "https://github.com/Serero-Codes/AI-Chatbot.git",
+      live: "https://ai-chatbot-859t.onrender.com",
+    },
+    {
       title: "AI Content Studio",
       description:
         "AI-powered content generation platform with blog generation, social media tools, prompt optimization, and image generation.",
       tech: ["Python", "Streamlit", "Groq API"],
-      github: "https://github.com/YOUR_USERNAME/ai-content-studio",
-      live: "https://YOUR_STREAMLIT_LINK.streamlit.app",
+      github: "https://github.com/Monwabisi-X/ai-content-studio",
+      live: "https://intellilearn-ai-c8kkanaj9cywuh8dtvkcmb.streamlit.app",
+    },
+    {
+      title: "AI Sentiment Dashboard",
+      description:
+        "Real-time sentiment analysis dashboard for monitoring public opinion on social media platforms.",
+      tech: ["Python", "Streamlit", "Groq API"],
+      github: "https://github.com/Monwabisi-X/ai-sentiment-dashboard",
+      live: "https://ai-sentiment-dashboard-3vucp9y3udaz3ive5f4j24.streamlit.app",
     },
     {
       title: "IntelliLearn AI",
       description:
         "AI learning assistant with quizzes, dashboards, progress tracking, intelligent study plans, and analytics.",
       tech: ["Python", "Streamlit", "Plotly"],
-      github: "https://github.com/YOUR_USERNAME/intellilearn-ai",
-      live: "https://YOUR_STREAMLIT_LINK.streamlit.app",
+      github: "https://github.com/Monwabisi-X/intellilearn-ai",
+      live: "https://intellilearn-ai-c8kkanaj9cywuh8dtvkcmb.streamlit.app",
     },
   ];
 
@@ -94,7 +110,7 @@ function App() {
           </a>
 
           <a
-            href="https://github.com/YOUR_USERNAME"
+            href="https://github.com/Monwabisi-X"
             className="border border-white/20 hover:border-blue-400 transition px-8 py-4 rounded-xl"
           >
             GitHub
@@ -256,7 +272,7 @@ function App() {
 
         <div className="flex justify-center gap-6 text-4xl">
           <a
-            href="https://github.com/YOUR_USERNAME"
+            href="https://github.com/Monwabisi-X"
             className="hover:text-blue-400 transition"
           >
             <FaGithub />
