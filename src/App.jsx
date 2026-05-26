@@ -14,6 +14,7 @@ function App() {
       tech: ["Python", "Groq API"],
       github: "https://github.com/Serero-Codes/AI-Chatbot.git",
       live: "https://ai-chatbot-859t.onrender.com",
+      Doc: "https://capeitinitiative-my.sharepoint.com/:b:/g/personal/monwabisi_xinwa_capaciti_org_za/IQBdTbotvEe1SL5g1zk-afs5AZ-TXTXcRQG8eos60BHazf4?e=DlSpaS"
     },
     {
       title: "AI Content Studio",
@@ -22,6 +23,7 @@ function App() {
       tech: ["Python", "Streamlit", "Groq API"],
       github: "https://github.com/Monwabisi-X/ai-content-studio",
       live: "https://intellilearn-ai-c8kkanaj9cywuh8dtvkcmb.streamlit.app",
+      Doc: "https://capeitinitiative-my.sharepoint.com/:b:/g/personal/monwabisi_xinwa_capaciti_org_za/IQC6PabGTFKmS52YxUqtZlTwAXOwdZ3xpFvg-9aB3oScqj4?e=TpIURv"
     },
     {
       title: "AI Sentiment Dashboard",
@@ -30,6 +32,7 @@ function App() {
       tech: ["Python", "Streamlit", "Groq API"],
       github: "https://github.com/Monwabisi-X/ai-sentiment-dashboard",
       live: "https://ai-sentiment-dashboard-3vucp9y3udaz3ive5f4j24.streamlit.app",
+      Doc: "https://capeitinitiative-my.sharepoint.com/:w:/g/personal/monwabisi_xinwa_capaciti_org_za/IQCMRZHRv9MMT7YV4bYHs968AWRh_lamBAf1yRs0mHwJDKk?e=QsXUgz"
     },
     {
       title: "IntelliLearn AI",
@@ -38,6 +41,7 @@ function App() {
       tech: ["Python", "Streamlit", "Plotly"],
       github: "https://github.com/Monwabisi-X/intellilearn-ai",
       live: "https://intellilearn-ai-c8kkanaj9cywuh8dtvkcmb.streamlit.app",
+      Doc: "https://capeitinitiative-my.sharepoint.com/:b:/g/personal/monwabisi_xinwa_capaciti_org_za/IQB7tIIVSrLwRaybbJN1-mDbAVtdfqPfGvkOeaC378CCWU4?e=yBkiPa"
     },
   ];
 
@@ -215,6 +219,13 @@ function App() {
                 >
                   <FaExternalLinkAlt />
                   Live Demo
+                </a>
+                <a
+                  href={project.Doc}
+                  className="flex items-center gap-2 bg-green-600 hover:bg-green-700 transition px-5 py-3 rounded-xl"
+                >
+                  <FaExternalLinkAlt />
+                  Documentation
                 </a>
               </div>
             </motion.div>
