@@ -290,7 +290,7 @@ function App() {
           </a>
 
           <a
-            href="https://linkedin.com/in/YOUR_PROFILE"
+            href="www.linkedin.com/in/monwabisi-xinwa"
             className="hover:text-blue-400 transition"
           >
             <FaLinkedin />
